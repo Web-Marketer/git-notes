@@ -71,7 +71,7 @@ graph LR;
   untracked -- "git add" --> staged;
   staged    -- "???"     --> tracked/comitted;
 
-  modified + git add --> staged
+  A[modified + git add] --> B[staged]
 ```
 
 ## Прочее
